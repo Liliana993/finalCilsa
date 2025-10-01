@@ -1,4 +1,3 @@
-
 const contenedor = document.getElementById("productosCalzado");
 // arreglo objs productos
 const zapatos = [
