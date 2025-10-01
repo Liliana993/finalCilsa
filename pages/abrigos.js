@@ -4,52 +4,52 @@ const abrigos = [
   {
     descripcion: "Campera acolchada negra con capucha desmontable.",
     costo: 45999,
-    ruta: "./src/assets/img/abrigos/abrigo1.jpg"
+    ruta: "/src/assets/img/abrigos/abrigo1.jpg"
   },
   {
     descripcion: "Saco de lana gris, corte clásico, ideal para oficina.",
     costo: 52999,
-    ruta: "./src/assets/img/abrigos/abrigo2.jpg"
+    ruta: "/src/assets/img/abrigos/abrigo2.jpg"
   },
   {
     descripcion: "Tapado largo beige con cinturón y bolsillos amplios.",
     costo: 67999,
-    ruta: "./src/assets/img/abrigos/abrigo3.jpg"
+    ruta: "/src/assets/img/abrigos/abrigo3.jpg"
   },
   {
     descripcion: "Campera inflable azul marino, ligera y abrigada.",
     costo: 38999,
-    ruta: "./src/assets/img/abrigos/abrigo4.jpg"
+    ruta: "/src/assets/img/abrigos/abrigo4.jpg"
   },
   {
     descripcion: "Tapado de paño rojo con botones grandes y cuello alto.",
     costo: 59999,
-    ruta: ".src/assets/img/abrigos/abrigo5.jpg"
+    ruta: "src/assets/img/abrigos/abrigo5.jpg"
   },
   {
     descripcion: "Campera de cuero sintético negra con interior de corderito.",
     costo: 74999,
-    ruta: "./src/assets/img/abrigos/abrigo6.jpg"
+    ruta: "/src/assets/img/abrigos/abrigo6.jpg"
   },
   {
     descripcion: "Saco camel de corte recto con solapas anchas.",
     costo: 48999,
-    ruta: "./src/assets/img/abrigos/abrigo7.jpg"
+    ruta: "/src/assets/img/abrigos/abrigo7.jpg"
   },
   {
     descripcion: "Campera deportiva impermeable con cierre y capucha.",
     costo: 41999,
-    ruta: "./src/assets/img/abrigos/abrigo8.jpg"
+    ruta: "/src/assets/img/abrigos/abrigo8.jpg"
   },
   {
     descripcion: "Abrigo gris oscuro con capucha de piel sintética.",
     costo: 69999,
-    ruta: "./src/assets/img/abrigos/abrigo9.jpg"
+    ruta: "/src/assets/img/abrigos/abrigo9.jpg"
   },
   {
     descripcion: "Tapado azul eléctrico estilo elegante con botones metálicos.",
     costo: 82999,
-    ruta: "./src/assets/img/abrigos/abrigo10.jpg"
+    ruta: "/src/assets/img/abrigos/abrigo10.jpg"
   }
 ];
 
