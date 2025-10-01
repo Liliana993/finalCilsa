@@ -35,12 +35,12 @@
             Categorías
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Abrigos</a></li>
-            <li><a class="dropdown-item" href="#">Remeras</a></li>
-            <li><a class="dropdown-item" href="#">Jeans</a></li>
-            <li><a class="dropdown-item" href="#">Vestidos</a></li>
-            <li><a class="dropdown-item" href="#">Calzados</a></li>
-            <li><a class="dropdown-item" href="#">Accesorios</a></li>
+            <li><a class="dropdown-item" href="./pages/abrigos.html">Abrigos</a></li>
+            <li><a class="dropdown-item" href="./pages/remeras.html">Remeras</a></li>
+            <li><a class="dropdown-item" href="./pages/jeans.html">Jeans</a></li>
+            <li><a class="dropdown-item" href="./pages/vestidos.html">Vestidos</a></li>
+            <li><a class="dropdown-item" href="./pages/calzado.html">Calzados</a></li>
+            <li><a class="dropdown-item" href="./pages/accesorios.html">Accesorios</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Novedades</a></li>
           </ul>
@@ -56,100 +56,89 @@
     </header>
 
     <!--MAIN-->
-    <main class="container-fluid">
-            <!--3 productos por categoría-->
-         <section class="categorias mt-5 pt-4" id="productos">
+    <main>
+      <section class="categorias mt-5 pt-4" id="productos">
        <div class="container-fluid m-2">
         <div class="row align-items-center pb-3">
-            <h2 class="text-center title-categori">Nuestro catálogo</h2>
-            <p class="fs-5 text-center">Productos exclusivos, comodos y para cada ocasión.</p>
+            <h2 class="text-center title-categori">Conocé Tienda Oli</h2>
+            <p class="fs-5 text-center">Calidad, novedades y atención exclusiva.</p>
         </div>
         <div class="row align-items-center justify-content-around">
-            <div class="card text-center mb-3" style="width: 15rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Mujeres</h5>
-                    <img src="./src/assets/img/hero/moda1.jpg" class="card-img-top" alt="...">
-                    <!--Boton despliga modal-->
-                    <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver más</button>
-                    <!-- Modal -->
-   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">Nombre del producto</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p><i class="fa-solid fa-tag"></i> Descripción</p>
-        <p><i class="fa-solid fa-dollar-sign"></i> 12500</p>
-        
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-bs-dismiss="modal"  id="liveToastBtn"> Cerrar</button>
-        <button class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i> Comprar</button>
-      </div>
-    </div>
-  </div>
-</div>
-                </div>
-            </div>
-                    <div class="card text-center mb-2" style="width: 15rem;">
+          <!--CARD 1-->
+            <div class="card text-center mb-3" style="width: 18rem; height: 31rem;">
                 <div class="card-body">
                     <h5 class="card-title">Abrigos</h5>
+                    <p class="card-text mb-0">
+                      Desde camperas y tapados hasta chalecos y buzos.
+                    </p>
                     <img src="./src/assets/img/hero/ultimo.jpg" class="card-img-top" alt="...">
-                    <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver más</button>
-                    <!-- Modal -->
-   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-    </div>
-     </div>
-        <div class="card text-center mb-2" style="width: 15rem;">
+                    <a href="./pages/abrigos.html" class="btn btn-primary mt-3">Catálogo</a>
+                </div>
+            </div>
+            <!--CARD 2-->
+                        <div class="card text-center mb-2" style="width: 18rem; height: 31rem;">
                 <div class="card-body">
-                    <h5 class="card-title">Hombres</h5>
+                    <h5 class="card-title">Remeras</h5>
+                    <p class="card-text mb-0">
+                        Amplia variedad de modelos, colores y talles pensados para cada ocasión.
+                    </p>
+                    
+                    <img src="./src/assets/img/hero/moda1.jpg" class="card-img-top" alt="...">
+                    <a href="./pages/remeras.html" class="btn btn-primary mt-3">Catálogo</a>
+                </div>
+            </div>
+            <!--CARD 3-->
+                        <div class="card text-center mb-2" style="width: 18rem; height: 31rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Jeans</h5>
+                    <p class="card-text mb-0">
+                        Con cortes clásicos, modernos, versátiles y variedad de colores.
+                    </p>
                     
                     <img src="./src/assets/img/hero/moda2.jpg" class="card-img-top">
-                    <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver más</button>
-                    <!-- Modal -->
-   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-
-      </div>
-    </div>
-  </div>
-</div>
+                    <a href="./pages/jeans.html" class="btn btn-primary mt-3">Catálogo</a>
+                </div>
+            </div>
+            <!--CARD 4-->
+            <div class="card text-center mb-2" style="width: 18rem; height: 31rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Calzados</h5>
+                    <p class="card-text mb-0">
+                        Confort y estilo en cada paso. Zapatillas, botas y más.
+                    </p>
+                    
+                    <img src="./src/assets/img/zapatos/zapato1.jpg" class="card-img-top">
+                    <a href="./pages/calzado.html" class="btn btn-primary mt-3">Catálogo</a>
+                </div>
+            </div>
+            <!--CARD 5-->
+            <div class="card text-center mb-2" style="width: 18rem; height: 31rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Vestidos</h5>
+                    <p class="card-text mb-0">
+                        Desde opciones casuales y frescas hasta diseños más elegantes.
+                    </p>
+                    
+                    <img src="./src/assets/img/vestidos/vestido1.jpg" class="card-img-top">
+                    <a href="./pages/vestidos.html" class="btn btn-primary mt-3">Catálogo</a>
+                </div>
+            </div>
+            <!--CARD 6-->
+            <div class="card text-center mb-2" style="width: 18rem; height: 31rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Accesorios</h5>
+                    <p class="card-text mb-0">
+                        Dale el toque final a tu look con nuestra colección de accesorios.
+                    </p>
+                    
+                    <img src="./src/assets/img/accesorios/accesorio1.jpg" class="card-img-top">
+                    <a href="./pages/accesorios.html" class="btn btn-primary mt-3">Catálogo</a>
                 </div>
             </div>
         </div>
         
     </div>
      </section>
-
     </main>
 
     <!--FOOTER-->
